@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+/////////
+### Type of Export and Import
+
+1. Name export - 
+    a. we can create multiple name export in single js file.
+    b. by using {  }  we can create name export
+    syntax - export {comp1, comp2, comp3...}
+
+    
+2. default export - 
+    a. export components by using default keyword
+    b. only one default export in single js file.
+    syntax => export default nameOfComponent
+
+
+Types of Component
+1.Class based Components - creating component using class keyword
+2.Function based Components - creating component using function keyword
